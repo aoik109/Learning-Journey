@@ -17,8 +17,9 @@
         <hr/>
 
         <h2>HTML -- HyperText Markup Language</h2>
-        <p>
+        
             <h3>Void Elements</h3>
+            <p>
             <ul>
                 <li>&lt;hr/&gt;: horizontol rule</li>
                 <li>&lt;br/&gt;: break</li>
@@ -30,7 +31,7 @@
                 <li>&lt;ol&gt;: ordered list (numbered)</li>
             </ul>
             <ul class="css">
-                <li>liststyle: none (no bullet points)</li>
+                <li>list-style: none (no bullet points)</li>
             </ul>
 
             <h3>Elements</h3>
@@ -50,6 +51,52 @@
                     <li><strong>src</strong> - location of the image</li>
                     <li><strong>alt</strong> - alt text; description of the image</li>
                 </ul>
+            </ul>
+        </p>
+
+        <p>
+            <hr/>
+            <h2>CSS - Cascading Style Sheets</h2>
+            <h3>Flexbox</h3>
+            <p>Container: </p>
+            <ul>
+                <li>class="container"</li>
+                <li class="css">display: flex OR inline-flex -> applies the flexbox rules</li>
+                <ul>
+                    <li><span class="css">flex</span>: flexbox width is the full width of the page</li>
+                    <li><span class="css">inline-flex</span>: flexbox width is as big as its biggest inner element's width</li>
+                </ul>
+                <li class="css">flex-direction: determines which direction the flexbox is stacked</li>
+                <ul>
+                    <li>row: default, main-axis is the horizontal axis</li>
+                    <li>column: vertically stacked, main-axis is the vertical axis</li>
+                </ul>
+                <li class="css">flex-wrap: determines behavior when items overflow page</li>
+                <ul>
+                    <li>nowrap: default, containues off the page</li>
+                    <li>wrap: children move to next line</li>
+                    <li>wrap-reverse: children move from bottom right to left</li>
+                </ul>
+                <li class="css">gap: 1rem; -> adds a gap between each of the cards</li>
+                <li class="css">justify-content: sets distribution of children across the main axis</li>
+                <ul>
+                    <li>flex-start: default</li>
+                    <li>flex-end: starts from the right</li>
+                    <li>center: center all the childrens?</li>
+                    <li>space-between: only spaces between children</li>
+                    <li>space-around: spaces around all the children</li>
+                </ul>
+            </ul>
+
+            <p>Children: </p>
+            <ul>
+                <li class="css">flex-basis: determines how long to spread across main-axis</li>
+                <ul>
+                    <li>if main-axis is horizontal-axis: flex-basis increases the width of the children</li>
+                    <li>main is vertical: flex-basis changes height of children</li>
+                </ul>
+                <li>order: set order of children</li>
+
             </ul>
         </p>
     </body>

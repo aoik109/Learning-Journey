@@ -10,3 +10,7 @@ li {
 .css {
     color: blue;
 }
+
+.note {
+    list-style: none;
+}
